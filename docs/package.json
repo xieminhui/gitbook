@@ -1,0 +1,27 @@
+{
+  "name": "gitbook_blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "gitbook build ./ docs",
+    "start": "gitbook serve ./ docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xieminhui/gitbook_blog.git"
+  },
+  "author": "xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xieminhui/gitbook_blog/issues"
+  },
+  "homepage": "https://github.com/xieminhui/gitbook_blog#readme",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
